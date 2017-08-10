@@ -1,6 +1,6 @@
 {
   "name": "naming-convention",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for converting between variable naming conventions.",
   "main": "lib/index.js",
   "scripts": {
