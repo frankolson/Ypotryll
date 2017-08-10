@@ -1,0 +1,16 @@
+{
+  "name": "naming-convention",
+  "version": "1.0.0",
+  "description": "A package for converting between variable naming conventions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "camel",
+    "snake",
+    "pascal"
+  ],
+  "author": "Will Olson <will.olson11@gmail.com> (https://thinkolson.com)",
+  "license": "MIT"
+}
