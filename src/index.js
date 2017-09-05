@@ -8,6 +8,10 @@ export fromConstant = (string) => (
   string.toLowerCase().replace(/(_[a-z])/g, letter => `_${letter.toLowerCase()}`)
 );
 
+export fromPascal = (string) => (
+  string.replace(/([A-Z])/g, letter => `_${letter.toLowerCase()}`).substr(1)
+);
+
 
 /******* FROM SNAKE *******/
 
