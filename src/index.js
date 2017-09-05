@@ -29,6 +29,10 @@ export const toPascal = (string) => (
     .replace(/(^[a-z])/g, letter => letter.toUpperCase())
 );
 
+export const toTrim = (string) => (
+  string.replace(/(_)/g, '')
+);
+
 
 /******* FINAL CONVERSION *******/
 
