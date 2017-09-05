@@ -16,7 +16,7 @@ export const fromPascal = (string) => (
 /******* FROM SNAKE *******/
 
 export const toCamel = (string) => (
-  string.replace(/(_[a-z])/g, letter => `${letter[1].toUpperCase()}`)
+  string.replace(/(_[a-z])/g, letter => letter[1].toUpperCase()})
 );
 
 export const toConstant = (string) => (
