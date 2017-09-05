@@ -23,6 +23,12 @@ export const toConstant = (string) => (
   string.toUpperCase()
 );
 
+export const toPascal = (string) => (
+  string
+    .replace(/(_[a-z])/g, letter => letter[1].toUpperCase())
+    .replace(/(^[a-z])/g, letter => letter.toUpperCase())
+);
+
 
 /******* FINAL CONVERSION *******/
 
