@@ -5,7 +5,7 @@ export const fromCamel = (string) => (
 );
 
 export const fromConstant = (string) => (
-  string.toLowerCase().replace(/(_[a-z])/g, letter => `_${letter.toLowerCase()}`)
+  string.toLowerCase()
 );
 
 export const fromPascal = (string) => (
