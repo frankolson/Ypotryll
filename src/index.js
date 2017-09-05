@@ -1,14 +1,14 @@
 /******* TO SNAKE *******/
 
-export fromCamel = (string) => (
+export const fromCamel = (string) => (
   string.replace(/([A-Z])/g, letter => `_${letter.toLowerCase()}`)
 );
 
-export fromConstant = (string) => (
+export const fromConstant = (string) => (
   string.toLowerCase().replace(/(_[a-z])/g, letter => `_${letter.toLowerCase()}`)
 );
 
-export fromPascal = (string) => (
+export const fromPascal = (string) => (
   string.replace(/([A-Z])/g, letter => `_${letter.toLowerCase()}`).substr(1)
 );
 
