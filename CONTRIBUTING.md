@@ -1,8 +1,6 @@
 # Contributing
 
-We love contributions from everyone. By participating in this project, you agree to abide by the [code of conduct].
-
-  [code of conduct]: CODE_OF_CONDUCT.md
+We love contributions from everyone. By participating in this project, you agree to abide by the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## How to Contribute
 
