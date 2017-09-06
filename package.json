@@ -1,6 +1,11 @@
 {
   "name": "ypotryll",
   "version": "0.1.0",
+  "homepage": "https://github.com/frankolson/Ypotryll",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankolson/Ypotryll.git"
+  },
   "description": "A package for converting between variable naming conventions.",
   "main": "lib/index.js",
   "scripts": {
