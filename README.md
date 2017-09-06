@@ -1,5 +1,8 @@
 # Ypotryll
 
+[![npm version](https://img.shields.io/npm/v/ypotryll.svg?style=flat)](https://www.npmjs.com/package/ypotryll)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#how-to-contribute)
+
 A package for converting between variable naming conventions.
 
 This package is especially helpful when you are using a web app stack with both Ruby and Javascript. With Javascript using camel case as its variable naming convention, and Ruby using snake case, it is useful to have a tool to translate between the two.
