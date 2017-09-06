@@ -2,7 +2,7 @@
 
 We love contributions from everyone. By participating in this project, you agree to abide by the [code of conduct].
 
-  [code of conduct]: https://github.com/frankolson/Ypotryll/blob/master/CODE_OF_CONDUCT.md
+  [code of conduct]: CODE_OF_CONDUCT.md
 
 ## How to Contribute
 
