@@ -1,7 +1,7 @@
 # Ypotryll
 
 [![npm version](https://img.shields.io/npm/v/ypotryll.svg?style=flat)](https://www.npmjs.com/package/ypotryll)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#how-to-contribute)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/frankolson/Ypotryll/blob/master/CONTRIBUTING.md#how-to-contribute)
 
 A package for converting between variable naming conventions.
 
@@ -65,8 +65,8 @@ var snakeParams = ypotryll.convertParams(styles);
 
 ## Contribute
 
-Want to contribute? Awesome! Check out our [contributing file](CONTRIBUTING.md).
+Want to contribute? Awesome! Check out our [contributing file](https://github.com/frankolson/Ypotryll/blob/master/CONTRIBUTING.md).
 
 ## License
 
-[MIT Licensed](LICENSE.md). Copyright (c) Will Olson 2017.
+[MIT Licensed](https://github.com/frankolson/Ypotryll/blob/master/LICENSE.md). Copyright (c) Will Olson 2017.
