@@ -59,3 +59,11 @@ var snakeParams = ypotryll.convertParams(styles);
  * }
  */
 ```
+
+## Contribute
+
+Want to contribute? Awesome! Check out our [contributing file](CONTRIBUTING.md).
+
+## License
+
+[MIT Licensed](LICENSE.md). Copyright (c) Will Olson 2017.
