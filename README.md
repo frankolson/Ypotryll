@@ -54,8 +54,8 @@ var styles = {
 var snakeParams = ypotryll.convertParams(styles);
 /*
  * {
- *   "font_family": "sans-serif",
- *   "text_align": "center"
+ *   font_family: "sans-serif",
+ *   text_align: "center"
  * }
  */
 ```
