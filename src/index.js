@@ -27,7 +27,7 @@ export const convertParams = (input, from='camel', to='snake') => {
     return Object.keys(input).reduce((obj, key) => {
       if (Array.isArray(input[key])) {
         obj[convert(key, from, to)] = input[key].map(value => convertParams(value, from, to));
-      } else if (typeof input[key] == "object" && input[key] !== null) {
+      } else if (typeof input[key] === "object" && input[key] !== null) {
         obj[convert(key, from, to)] = convertParams(input[key], from, to);
       } else {
         obj[convert(key, from, to)] = input[key];
