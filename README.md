@@ -49,17 +49,27 @@ This is used to translate a objects keys from one case to another. An appropriat
 ```javascript
 var ypotryll = require('ypotryll');
 
-var styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
-};
+var contacts = [{
+  name: 'Jenny',
+  phoneNumbers: [
+    {
+      phoneNumber: '867-5309'
+    }
+  ],
+}];
 
-var snakeParams = ypotryll.convertParams(styles);
+var snakeParams = ypotryll.convertParams(contacts);
 /*
- * {
- *   font_family: "sans-serif",
- *   text_align: "center"
- * }
+ * [
+ *   {
+ *    name: 'Jenny',
+ *    phone_numbers: [
+ *      {
+ *        phone_number: '867-5309',
+ *      },
+ *    ],
+ *   },
+ * ]
  */
 ```
 
