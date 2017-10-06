@@ -23,7 +23,7 @@ export const convert = (input, from, to) => (
 export const convertParams = (input, from='camel', to='snake') => {
   if (Array.isArray(input)) {
     return input.map(value => convertParams(value, from, to));
-  } else {
+  } else if (typeof input === 'object') {
     return Object.keys(input).reduce((obj, key) => {
       if (Array.isArray(input[key])) {
         obj[convert(key, from, to)] = input[key].map(value => convertParams(value, from, to));
@@ -34,5 +34,7 @@ export const convertParams = (input, from='camel', to='snake') => {
       }
       return obj;
     }, {})
+  } else {
+    return input;
   }
 };
